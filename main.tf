@@ -2,15 +2,11 @@
 
 # The configuration for the `remote` backend.
      terraform {
-       backend "remote" {
-         # The name of your Terraform Cloud organization.
-         organization = "example-organization"
-
-         # The name of the Terraform Cloud workspace to store Terraform state files in.
-         workspaces {
-           name = "example-workspace"
-         }
-       }
+  backend "s3" {
+    bucket = "terraform-tfstate-tom"
+    key    = "terraform-ci.tfstate"
+    region = "ap-southeast-1"
+  }
      }
 
      # An example resource that does nothing.
