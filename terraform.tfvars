@@ -10,7 +10,7 @@ VPCCIDR = "10.0.0.0/16"
 
 #aws_region = "ap-southeast-1"
 
-#ServerKeyName = "tom-singapore"
+ServerKeyName = "tom-oregon"
 
 #MasterS3Bucket = "pan-oregon-s3-bootstrap"
 
