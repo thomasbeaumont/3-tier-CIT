@@ -8,7 +8,7 @@ StackName = "vv-2t"
 
 VPCCIDR = "10.0.0.0/16"
 
-#aws_region = "ap-southeast-1"
+aws_region = "us-west-2"
 
 ServerKeyName = "tom-oregon"
 
